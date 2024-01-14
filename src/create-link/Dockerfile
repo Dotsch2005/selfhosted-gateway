@@ -6,4 +6,6 @@ COPY . /code
 
 WORKDIR /code
 
+ENV LINK_MTU=1380
+
 ENTRYPOINT ["/code/entrypoint.sh"]
